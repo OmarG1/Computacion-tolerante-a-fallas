@@ -1,0 +1,34 @@
+[2024-04-16T04:26:22.802+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: first_dag.parse_apod_data scheduled__2024-02-12T00:00:00+00:00 [queued]>
+[2024-04-16T04:26:22.812+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: first_dag.parse_apod_data scheduled__2024-02-12T00:00:00+00:00 [queued]>
+[2024-04-16T04:26:22.813+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2024-04-16T04:26:22.813+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2024-04-16T04:26:22.814+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2024-04-16T04:26:22.830+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): parse_apod_data> on 2024-02-12 00:00:00+00:00
+[2024-04-16T04:26:22.836+0000] {standard_task_runner.py:55} INFO - Started process 905 to run task
+[2024-04-16T04:26:22.840+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'first_dag', 'parse_apod_data', 'scheduled__2024-02-12T00:00:00+00:00', '--job-id', '1176', '--raw', '--subdir', 'DAGS_FOLDER/FirstDag.py', '--cfg-path', '/tmp/tmpwjc1jz3f']
+[2024-04-16T04:26:22.840+0000] {standard_task_runner.py:83} INFO - Job 1176: Subtask parse_apod_data
+[2024-04-16T04:26:22.919+0000] {task_command.py:376} INFO - Running <TaskInstance: first_dag.parse_apod_data scheduled__2024-02-12T00:00:00+00:00 [running]> on host b0ce51d36eb8
+[2024-04-16T04:26:23.007+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=parse_apod_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-02-12T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-02-12T00:00:00+00:00
+[2024-04-16T04:26:23.008+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 188, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/FirstDag.py", line 32, in parse_apod_data
+    title=row.get('title'),
+AttributeError: 'str' object has no attribute 'get'
+[2024-04-16T04:26:23.018+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=first_dag, task_id=parse_apod_data, execution_date=20240212T000000, start_date=20240416T042622, end_date=20240416T042623
+[2024-04-16T04:26:23.031+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 1176 for task parse_apod_data ('str' object has no attribute 'get'; 905)
+[2024-04-16T04:26:23.053+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2024-04-16T04:26:23.173+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
