@@ -1,0 +1,86 @@
+{
+  "chaoslib-version": "1.43.2",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "node": "DESKTOP-CPRQ7H7",
+  "experiment": {
+    "version": "1.0",
+    "title": "Kill a pod in Kubernetes",
+    "description": "This experiment kills a random pod in a Kubernetes deployment.",
+    "tags": [
+      "kubernetes",
+      "chaos"
+    ],
+    "steady-state-hypothesis": {
+      "title": "Service is stable",
+      "probes": [
+        {
+          "type": "probe",
+          "name": "service-available",
+          "tolerance": "high",
+          "provider": {
+            "type": "http",
+            "url": "http://127.0.0.1:51937"
+          }
+        }
+      ]
+    },
+    "method": [
+      {
+        "type": "action",
+        "name": "terminate-pod",
+        "provider": {
+          "type": "python",
+          "module": "chaosk8s.pod.actions",
+          "func": "terminate_pods",
+          "arguments": {
+            "label_selector": "app=my-app"
+          }
+        }
+      }
+    ],
+    "dry": null
+  },
+  "start": "2024-05-12T00:42:23.902651+00:00",
+  "status": "completed",
+  "deviated": false,
+  "steady_states": {
+    "before": {
+      "steady_state_met": false,
+      "probes": [
+        {
+          "activity": {
+            "type": "probe",
+            "name": "service-available",
+            "tolerance": "high",
+            "provider": {
+              "type": "http",
+              "url": "http://127.0.0.1:51937"
+            }
+          },
+          "output": {
+            "status": 503,
+            "headers": {
+              "content-length": "152",
+              "content-type": "text/plain",
+              "date": "Sun, 12 May 2024 00:42:23 GMT",
+              "server": "istio-envoy",
+              "x-envoy-decorator-operation": "my-service.default.svc.cluster.local:80/*"
+            },
+            "body": "upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: 111"
+          },
+          "start": "2024-05-12T00:42:23.904651+00:00",
+          "status": "succeeded",
+          "end": "2024-05-12T00:42:23.908641+00:00",
+          "duration": 0.00399,
+          "tolerance_met": false
+        }
+      ]
+    },
+    "after": null,
+    "during": []
+  },
+  "run": [],
+  "rollbacks": [],
+  "end": "2024-05-12T00:42:23.909720+00:00",
+  "duration": 0.00706934928894043
+}

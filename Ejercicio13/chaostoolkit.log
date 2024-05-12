@@ -1,0 +1,889 @@
+[36m[2024-05-11 17:35:17 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 17:35:17 DEBUG] [__init__:102][39m Running command 'init'
+[36m[2024-05-11 17:35:17 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 17:35:17 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 17:39:21 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 17:39:21 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 17:39:21 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 17:39:22 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 17:39:22 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:39:22 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:39:22 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:39:22 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 17:39:22 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 17:39:22 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:39:22 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:39:22 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 17:39:22 DEBUG] [caching:42][39m Clearing activities cache
+[31m[2024-05-11 17:39:22 ERROR] [run:188][39m could not find Python module 'chaosk8s.pod.actions' in activity 'terminate-pod'
+[36m[2024-05-11 17:39:22 DEBUG] [run:189][39m could not find Python module 'chaosk8s.pod.actions' in activity 'terminate-pod'
+[36m[2024-05-11 17:40:33 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 17:40:33 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 17:40:33 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 17:40:34 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 17:40:34 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:40:34 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:40:34 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:40:34 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 17:40:34 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 17:40:34 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:40:34 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:40:34 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 17:40:36 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 17:40:36 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:40:36 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 17:40:36 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:40:36 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 17:40:36 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:40:36 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:40:36 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 17:40:36 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 17:40:36 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 17:40:36 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 17:40:36 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 17:40:36 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 17:40:36 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 17:40:36 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:40:36 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 17:40:36 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 17:40:36 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 17:40:36 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 17:40:36 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 17:40:38 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    socket.gaierror: [Errno 11001] getaddrinfo failed
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+        raise NameResolutionError(self.host, self, e) from e
+    urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000025784A28AD0>: Failed to resolve 'service1' ([Errno 11001] getaddrinfo failed)
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='service1', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025784A28AD0>: Failed to resolve 'service1' ([Errno 11001] getaddrinfo failed)"))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='service1', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025784A28AD0>: Failed to resolve 'service1' ([Errno 11001] getaddrinfo failed)"))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://service1: HTTPConnectionPool(host='service1', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025784A28AD0>: Failed to resolve 'service1' ([Errno 11001] getaddrinfo failed)"))
+[31m[2024-05-11 17:40:38 ERROR] [activity:268][39m   => failed: failed to connect to http://service1: HTTPConnectionPool(host='service1', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025784A28AD0>: Failed to resolve 'service1' ([Errno 11001] getaddrinfo failed)"))
+[36m[2024-05-11 17:40:38 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 17:40:38 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 17:40:38 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 17:40:38 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 17:40:38 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 17:40:38 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:40:38 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 17:40:38 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:44:45 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 17:44:45 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 17:44:45 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 17:44:46 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 17:44:46 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:44:46 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:44:46 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:44:46 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 17:44:46 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 17:44:46 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:44:46 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:44:46 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 17:44:46 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 17:44:46 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:44:46 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 17:44:46 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:44:46 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 17:44:46 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:44:46 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:44:46 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 17:44:46 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 17:44:46 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 17:44:46 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 17:44:46 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 17:44:46 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 17:44:46 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 17:44:46 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:44:46 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 17:44:46 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 17:44:46 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 17:44:46 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 17:44:46 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 17:44:48 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    socket.gaierror: [Errno 11001] getaddrinfo failed
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+        raise NameResolutionError(self.host, self, e) from e
+    urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000020860B28B10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020860B28B10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020860B28B10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://my-service: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020860B28B10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+[31m[2024-05-11 17:44:48 ERROR] [activity:268][39m   => failed: failed to connect to http://my-service: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020860B28B10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+[36m[2024-05-11 17:44:48 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 17:44:48 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 17:44:48 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 17:44:48 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 17:44:48 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 17:44:48 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:44:48 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 17:44:48 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:55:43 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 17:55:43 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 17:55:43 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 17:55:45 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 17:55:45 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:55:45 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:55:45 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:55:45 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 17:55:45 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 17:55:45 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:55:45 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:55:45 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 17:55:45 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 17:55:45 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:55:45 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 17:55:45 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:55:45 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 17:55:45 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:55:45 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:55:45 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 17:55:45 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 17:55:45 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 17:55:45 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 17:55:45 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 17:55:45 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 17:55:45 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 17:55:45 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:55:45 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 17:55:45 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 17:55:45 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 17:55:45 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 17:55:45 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 17:55:47 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+        for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+        for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    socket.gaierror: [Errno 11001] getaddrinfo failed
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+        raise NameResolutionError(self.host, self, e) from e
+    urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x0000024530C78A10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024530C78A10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024530C78A10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://my-service: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024530C78A10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+[31m[2024-05-11 17:55:47 ERROR] [activity:268][39m   => failed: failed to connect to http://my-service: HTTPConnectionPool(host='my-service', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024530C78A10>: Failed to resolve 'my-service' ([Errno 11001] getaddrinfo failed)"))
+[36m[2024-05-11 17:55:47 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 17:55:47 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 17:55:47 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 17:55:47 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 17:55:47 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 17:55:47 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:55:47 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 17:55:47 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:58:48 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 17:58:48 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 17:58:48 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 17:58:49 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 17:58:49 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:58:49 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 17:58:49 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:58:49 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 17:58:49 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 17:58:49 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:58:49 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:58:49 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 17:58:49 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 17:58:49 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 17:58:49 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 17:58:49 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 17:58:49 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 17:58:49 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 17:58:49 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 17:58:49 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 17:58:49 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 17:58:49 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 17:58:49 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 17:58:49 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 17:58:49 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 17:58:49 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 17:58:49 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:58:49 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 17:58:49 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 17:58:49 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 17:58:49 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 17:58:49 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 17:58:51 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+        raise err
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+        sock.connect(sa)
+    ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+        raise NewConnectionError(
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000020B929A8B90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B929A8B90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B929A8B90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://127.0.0.1:56036: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B929A8B90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[31m[2024-05-11 17:58:51 ERROR] [activity:268][39m   => failed: failed to connect to http://127.0.0.1:56036: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020B929A8B90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[36m[2024-05-11 17:58:51 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 17:58:51 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 17:58:51 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 17:58:51 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 17:58:51 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 17:58:51 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 17:58:51 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 17:58:51 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:22:05 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 18:22:05 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 18:22:05 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 18:22:06 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 18:22:06 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:22:06 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:22:06 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:22:06 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 18:22:06 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 18:22:06 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:22:06 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:22:06 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 18:22:07 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 18:22:07 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:22:07 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 18:22:07 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:22:07 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 18:22:07 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:22:07 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:22:07 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 18:22:07 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 18:22:07 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 18:22:07 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 18:22:07 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 18:22:07 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 18:22:07 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 18:22:07 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:22:07 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 18:22:07 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 18:22:07 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 18:22:07 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 18:22:07 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 18:22:09 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+        raise err
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+        sock.connect(sa)
+    ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+        raise NewConnectionError(
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002243E928D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002243E928D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002243E928D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://127.0.0.1:56036: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002243E928D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[31m[2024-05-11 18:22:09 ERROR] [activity:268][39m   => failed: failed to connect to http://127.0.0.1:56036: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002243E928D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[36m[2024-05-11 18:22:09 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 18:22:09 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 18:22:09 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 18:22:09 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 18:22:09 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 18:22:09 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:22:09 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 18:22:09 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:33:18 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 18:33:18 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 18:33:18 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 18:33:19 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 18:33:19 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:33:19 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:33:19 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:33:19 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 18:33:19 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 18:33:19 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:33:19 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:33:19 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 18:33:20 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 18:33:20 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:33:20 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 18:33:20 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:33:20 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 18:33:20 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:33:20 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:33:20 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 18:33:20 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 18:33:20 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 18:33:20 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 18:33:20 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 18:33:20 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 18:33:20 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 18:33:20 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:33:20 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 18:33:20 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 18:33:20 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 18:33:20 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 18:33:20 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 18:33:22 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+        raise err
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+        sock.connect(sa)
+    ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+        raise NewConnectionError(
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001EEA2488D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EEA2488D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EEA2488D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://127.0.0.1:56036: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EEA2488D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[31m[2024-05-11 18:33:22 ERROR] [activity:268][39m   => failed: failed to connect to http://127.0.0.1:56036: HTTPConnectionPool(host='127.0.0.1', port=56036): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EEA2488D10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[36m[2024-05-11 18:33:22 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 18:33:22 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 18:33:22 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 18:33:22 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 18:33:22 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 18:33:22 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:33:22 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 18:33:22 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:37:33 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 18:37:33 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 18:37:33 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 18:37:34 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 18:37:34 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:37:34 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:37:34 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:37:34 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 18:37:34 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 18:37:34 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:37:34 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:37:34 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 18:37:34 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 18:37:34 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:37:34 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 18:37:34 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:37:34 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 18:37:34 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:37:34 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:37:34 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 18:37:34 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 18:37:34 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 18:37:34 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 18:37:34 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 18:37:34 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 18:37:34 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 18:37:34 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:37:34 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 18:37:34 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 18:37:34 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 18:37:34 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 18:37:34 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 18:37:36 DEBUG] [activity:317][39m Activity failed
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+        sock = connection.create_connection(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+        raise err
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+        sock.connect(sa)
+    ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+        response = self._make_request(
+                   ^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+        conn.request(
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 400, in request
+        self.endheaders()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1277, in endheaders
+        self._send_output(message_body, encode_chunked=encode_chunked)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1037, in _send_output
+        self.send(msg)
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 975, in send
+        self.connect()
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 238, in connect
+        self.sock = self._new_conn()
+                    ^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+        raise NewConnectionError(
+    urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000002226B168A50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+        resp = conn.urlopen(
+               ^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+        retries = retries.increment(
+                  ^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+        raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=31714): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002226B168A50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 51, in run_http_activity
+        r = s.get(
+            ^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 602, in get
+        return self.request("GET", url, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+        resp = self.send(prep, **send_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+        r = adapter.send(request, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 519, in send
+        raise ConnectionError(e, request=request)
+    requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=31714): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002226B168A50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\activity.py", line 314, in run_activity
+        result = run_http_activity(activity, configuration, secrets)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\Specktre\AppData\Local\Programs\Python\Python311\Lib\site-packages\chaoslib\provider\http.py", line 101, in run_http_activity
+        raise ActivityFailed(f"failed to connect to {url}: {str(cex)}")
+    chaoslib.exceptions.ActivityFailed: failed to connect to http://127.0.0.1:31714: HTTPConnectionPool(host='127.0.0.1', port=31714): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002226B168A50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[31m[2024-05-11 18:37:36 ERROR] [activity:268][39m   => failed: failed to connect to http://127.0.0.1:31714: HTTPConnectionPool(host='127.0.0.1', port=31714): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002226B168A50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+[36m[2024-05-11 18:37:36 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[33m[2024-05-11 18:37:36 WARNING] [hypothesis:232][39m Probe terminated unexpectedly, so its tolerance could not be validated
+[36m[2024-05-11 18:37:36 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 18:37:36 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 18:37:36 INFO] [run:598][39m Experiment ended with status: failed
+[36m[2024-05-11 18:37:36 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:37:36 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 18:37:36 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:42:22 DEBUG] [__init__:101][39m ###############################################################################
+[36m[2024-05-11 18:42:22 DEBUG] [__init__:102][39m Running command 'run'
+[36m[2024-05-11 18:42:22 DEBUG] [__init__:106][39m Using settings file 'C:\Users\Specktre\.chaostoolkit\settings.yaml'
+[36m[2024-05-11 18:42:23 DEBUG] [settings:31][39m The Chaos Toolkit settings file could not be found at 'C:\Users\Specktre\.chaostoolkit\settings.yaml'.
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'loader'
+[36m[2024-05-11 18:42:23 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:42:23 DEBUG] [caching:35][39m Cached 2 activities
+[32m[2024-05-11 18:42:23 INFO] [experiment:59][39m Validating the experiment's syntax
+[36m[2024-05-11 18:42:23 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:42:23 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:42:23 DEBUG] [secret:104][39m Done loading secrets
+[32m[2024-05-11 18:42:23 INFO] [experiment:112][39m Experiment looks valid
+[36m[2024-05-11 18:42:23 DEBUG] [caching:42][39m Clearing activities cache
+[36m[2024-05-11 18:42:23 DEBUG] [run:224][39m Runtime strategies: hypothesis - default / rollbacks - default
+[36m[2024-05-11 18:42:23 DEBUG] [caching:24][39m Building activity cache...
+[36m[2024-05-11 18:42:23 DEBUG] [caching:35][39m Cached 2 activities
+[36m[2024-05-11 18:42:23 DEBUG] [configuration:64][39m Loading configuration...
+[36m[2024-05-11 18:42:23 DEBUG] [secret:79][39m Loading secrets...
+[36m[2024-05-11 18:42:23 DEBUG] [secret:104][39m Done loading secrets
+[36m[2024-05-11 18:42:23 DEBUG] [configuration:161][39m Loading dynamic configuration...
+[36m[2024-05-11 18:42:23 DEBUG] [exit:91][39m System 'Windows-10-10.0.19045-SP0' does not expose SIGUSR signals
+[32m[2024-05-11 18:42:23 INFO] [run:440][39m Running experiment: Kill a pod in Kubernetes
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:67][39m Initializing controls
+[32m[2024-05-11 18:42:23 INFO] [run:471][39m Steady-state strategy: default
+[32m[2024-05-11 18:42:23 INFO] [run:477][39m Rollbacks strategy: default
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:42:23 DEBUG] [run:654][39m Running steady-state hypothesis before the method
+[32m[2024-05-11 18:42:23 INFO] [hypothesis:205][39m Steady state hypothesis: Service is stable
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[32m[2024-05-11 18:42:23 INFO] [activity:232][39m Probe: service-available
+[36m[2024-05-11 18:42:23 DEBUG] [activity:260][39m   => succeeded with '{'status': 503, 'headers': {'content-length': '152', 'content-type': 'text/plain', 'date': 'Sun, 12 May 2024 00:42:23 GMT', 'server': 'istio-envoy', 'x-envoy-decorator-operation': 'my-service.default.svc.cluster.local:80/*'}, 'body': 'upstream connect error or disconnect/reset before headers. reset reason: remote connection failure, transport failure reason: delayed connect error: 111'}'
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'activity'
+[36m[2024-05-11 18:42:23 DEBUG] [hypothesis:247][39m allowed tolerance is high
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'hypothesis'
+[31m[2024-05-11 18:42:23 CRITICAL] [run:674][39m Steady state probe 'service-available' is not in the given tolerance so failing this experiment
+[32m[2024-05-11 18:42:23 INFO] [run:1072][39m Let's rollback...
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'rollback'
+[32m[2024-05-11 18:42:23 INFO] [rollback:33][39m No declared rollbacks, let's move on.
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'rollback'
+[32m[2024-05-11 18:42:23 INFO] [run:598][39m Experiment ended with status: completed
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:472][39m No controls to apply on 'experiment'
+[36m[2024-05-11 18:42:23 DEBUG] [__init__:106][39m Cleaning up controls
+[36m[2024-05-11 18:42:23 DEBUG] [caching:42][39m Clearing activities cache

@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "title": "Kill a pod in Kubernetes",
+  "description": "This experiment kills a random pod in a Kubernetes deployment.",
+  "tags": ["kubernetes", "chaos"],
+  "steady-state-hypothesis": {
+    "title": "Service is stable",
+    "probes": [
+      {
+        "type": "probe",
+        "name": "service-available",
+        "tolerance": "high",
+        "provider": {
+          "type": "http",
+          "url": "http://127.0.0.1:51937"
+        }
+      }
+    ]
+  },
+  "method": [
+    {
+      "type": "action",
+      "name": "terminate-pod",
+      "provider": {
+        "type": "python",
+        "module": "chaosk8s.pod.actions",
+        "func": "terminate_pods",
+        "arguments": {
+          "label_selector": "app=my-app"
+        }
+      }
+    }
+  ]
+}
